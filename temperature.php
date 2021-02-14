@@ -3,10 +3,10 @@ $x = rand(-20, 35);
 $n = round($x);
 echo "Температура $n";
 if ($x < 0)
-    echo "<h1 color=red>Мороз!";
+    echo "<div style='color:red'>Мороз!</div>";
 if ($x == 0)
-    echo "<h1 color=red>Не мороз и не тепло…";
+    echo "<div style='color:red'>Не мороз и не тепло…</div>";
 if ($x > 0)
-    echo "<h1 color=red>Тепло!";      
+    echo "<div style='color:red'>Тепло!</div>";
 
 ?>
